@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <>
-      <header className="flex justify-between items-center px-5 shadow">
+      <header className="flex justify-between items-center px-11 shadow py-5">
         <h1 className="text-3xl font-bold">BISHOPI</h1>
-        <nav className="p-5">
+        <nav className="">
           <ul className="flex gap-6.5">
             <li>Feature + </li>
             <li>Domains</li>
