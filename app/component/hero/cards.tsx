@@ -43,18 +43,17 @@ export default function Cards() {
           className={`${card.color} group relative flex flex-col items-center justify-between rounded-3xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer`}
         >
           {/* Image Container */}
-          <div className="relative w-full h-48 mb-8">
+          <div className="relative w-full mb-5">
             <Image
               src={card.img}
               alt={card.head}
-              fill
-              className="object-contain p-4"
+              className="w-[70px] mx-auto "
             />
           </div>
 
           {/* Content */}
           <div className="text-center space-y-4">
-            <h3 className="text-xl font-bold text-gray-900 lg:text-2xl">
+            <h3 className="text-xl font-bold text-gray-800 lg:text-2xl">
               {card.head}
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">{card.sunHead}</p>
