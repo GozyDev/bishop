@@ -54,7 +54,7 @@ export default function FormDisplay() {
                 <div key={li.text} className="flex items-center  gap-3 p-2.5 hover:bg-green-50 cursor-pointer">
                     <Image src={Quote} alt="quote"></Image>
                   <li>
-                    <span className="">{li.name}</span> : <span className="text-green-700">"{li.text}"</span>
+                  <span className="">{li.name}</span> : <span className="text-green-700">&quot;{li.text}&quot;</span>
                   </li>
                 </div>
               ))}

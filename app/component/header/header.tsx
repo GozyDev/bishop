@@ -1,7 +1,7 @@
 "use client";
 import Quote from "@/public/Bimage/SVGs/bishoplogo.svg";
 import Image from "next/image";
-import { use, useState } from "react";
+import {useState } from "react";
 export default function Header() {
   const [hidden, setHidden] = useState<boolean>(true);
   return (
