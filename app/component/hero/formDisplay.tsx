@@ -30,7 +30,7 @@ const list = [
 export default function FormDisplay() {
   return (
     <>
-      <section className=" max-w-2xl mx-auto space-y-8">
+      <section className=" px-2 max-w-2xl mx-auto space-y-8">
         <div className="relative">
           <Image
             src={Search}
@@ -51,7 +51,7 @@ export default function FormDisplay() {
           <div className="p-3">
             <ul className="space-y-5">
               {list.map((li) => (
-                <div className="flex items-center  gap-3 p-2.5 hover:bg-green-50 cursor-pointer">
+                <div key={li.text} className="flex items-center  gap-3 p-2.5 hover:bg-green-50 cursor-pointer">
                     <Image src={Quote} alt="quote"></Image>
                   <li>
                     <span className="">{li.name}</span> : <span className="text-green-700">"{li.text}"</span>

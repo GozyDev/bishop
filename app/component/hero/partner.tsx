@@ -35,7 +35,7 @@ export default function PaternerImages() {
           key={image.alt}
           src={image.src}
           alt={image.alt}
-          className="w-10"
+          className="w-7 md:w-10"
         ></Image>
       ))}
     </>
