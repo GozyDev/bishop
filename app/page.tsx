@@ -7,13 +7,13 @@ export default function BishoHomePage() {
   return (
     <>
       <section className="space-y-24 bg-gray-100/90 pt-20 px-5 md:px-11 md:pt-28 pb-28">
-        <section className="flex flex-col md:flex-row justify-between items-center gap-15 md:gap-5">
-          <section className="md:w-2/3  space-y-10">
+        <section className="flex flex-col md:flex-row justify-between items-center gap-20 md:gap-5">
+          <section className="md:w-2/3  space-y-5">
             <div className="space-y-6 text-center md:text-left">
-              <h1 className="text-4xl md:text-7xl font-bold text-gray-900">
+              <h1 className="text-4xl md:text-5xl lg:text-[60px] xl:text-[75px] font-bold text-gray-900">
                 A wide range of effective domain name and SEO tools
               </h1>
-              <p className="text-md md:text-2xl font-normal text-gray-700">
+              <p className="text-md md:text-xl lg:text-2xl font-normal md:w-[90%] text-gray-700">
                 Empower your domain investing business with the most advanced
                 and powerful tools and services
               </p>
@@ -41,8 +41,8 @@ export default function BishoHomePage() {
                   login
                 </button>
               </div>
-              <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3 md:gap-10">
-                <p className="text-sm text-gray-500">
+              <div className="flex flex-col-reverse md:flex-row items-center justify-center md:justify-start gap-3 md:gap-10">
+                <p className="text-[12px] sm:text-sm text-gray-500">
                   Trusted by leading Companies
                 </p>
                 <div className="flex gap-5 items-center">

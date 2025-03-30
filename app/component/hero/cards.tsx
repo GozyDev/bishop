@@ -36,11 +36,11 @@ export default function Cards() {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-5 px-4 sm:px-6 lg:px-8 text-center">
       {CardData.map((card) => (
         <div
           key={card.head}
-          className={`${card.color} group relative flex flex-col items-center h-[450px] justify-between rounded-3xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer`}
+          className={`${card.color} group relative flex flex-col items-center h-[450px] justify-between rounded-3xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer mx-auto`}
         >
           {/* Image Container */}
           <div className="relative w-full mb-5">

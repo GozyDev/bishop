@@ -48,10 +48,10 @@ export default function Header() {
             </svg>
           </div>
         </div>
-        {!hidden && (
-          <div className="fixed bg-white right-0 h-screen top-0 flex flex-col  items-center z-30 w-[250px] py-20 px-3 gap-5">
+        { (
+          <div className={`fixed bg-white right-0 h-screen top-0 flex flex-col  items-center z-30 w-[250px] py-10 px-3 gap-5 transform  ${hidden ?'translate-x-[300px]':'translate-x-[0px]' } transition-transform ease-in`}>
             <nav className=" md:block w-full">
-              <ul className="flex flex-col gap-5 justify-start text-left  text-md font-medium">
+              <ul className="flex flex-col gap-5 justify-start text-left  text-lg font-semibold">
                 <li>Feature + </li>
                 <li>Domains</li>
                 <li>Pricing</li>
