@@ -6,14 +6,14 @@ import Starts from "@/app/component/hero/stats";
 export default function BishoHomePage() {
   return (
     <>
-      <section className="space-y-24 bg-gray-100/90 pt-20 px-5 md:px-11 md:pt-28 pb-28">
-        <section className="flex flex-col md:flex-row justify-between items-center gap-20 md:gap-5">
+      <section className="space-y-24 bg-gray-100/50   pb-20 ">
+        <section className="flex flex-col md:flex-row justify-between items-center gap-20 md:gap-5 pt-[150px] px-[30px]">
           <section className="md:w-2/3  space-y-5">
             <div className="space-y-6 text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-[60px] xl:text-[75px] font-bold text-gray-900">
+              <h1 className="text-4xl lg:text-6xl xl:text-[75px] font-bold">
                 A wide range of effective domain name and SEO tools
               </h1>
-              <p className="text-md md:text-xl lg:text-2xl font-normal md:w-[90%] text-gray-700">
+              <p className="text-sm sm:text-md xl:text-2xl font-normal md:w-[90%] text-gray-700">
                 Empower your domain investing business with the most advanced
                 and powerful tools and services
               </p>

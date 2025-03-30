@@ -30,7 +30,7 @@ const list = [
 export default function FormDisplay() {
   return (
     <>
-      <section className=" px-2 max-w-2xl mx-auto space-y-8">
+      <section className=" px-7 max-w-2xl mx-auto space-y-8">
         <div className="relative">
           <Image
             src={Search}

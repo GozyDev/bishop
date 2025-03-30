@@ -6,14 +6,14 @@ export default function Header() {
   const [hidden, setHidden] = useState<boolean>(true);
   return (
     <>
-      <header className="  px-11 shadow py-6">
+      <header className="fixed w-full bg-white z-[999] px-11 shadow py-4">
         <div className="flex justify-between items-center">
           <Image
             src={Quote}
             alt="bishop-logo"
             className="w-[100px] md:w-[130px]"
           ></Image>
-          <nav className="hidden md:block">
+          <nav className="hidden lg:block">
             <ul className="flex gap-6.5 text-md font-medium">
               <li>Feature + </li>
               <li>Domains</li>
@@ -22,14 +22,14 @@ export default function Header() {
               <li>Resources +</li>
             </ul>
           </nav>
-          <div className="text-sm font-medium hidden gap-1.5 md:flex">
+          <div className="text-sm font-medium hidden  lg:flex">
             <button className="bg-gray-400/30 py-2 px-5 rounded">login</button>
             <button className="bg-amber-400/50 py-2 px-5 rounded">
               Get Started
             </button>
           </div>
           <div
-            className="md:hidden cursor-pointer"
+            className="lg:hidden cursor-pointer"
             onClick={() => setHidden(false)}
           >
             <svg
