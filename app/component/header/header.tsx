@@ -1,10 +1,13 @@
+import Quote from "@/public/Bimage/SVGs/bishoplogo.svg";
+import Image from "next/image";
+
 export default function Header() {
   return (
     <>
-      <header className="flex justify-between items-center px-11 shadow py-5">
-        <h1 className="text-3xl font-bold">BISHOPI</h1>
+      <header className="flex justify-between items-center px-11 shadow py-6">
+        <Image src={Quote} alt="bishop-logo" className="w-[130px]"></Image>
         <nav className="">
-          <ul className="flex gap-6.5">
+          <ul className="flex gap-6.5 text-md font-medium">
             <li>Feature + </li>
             <li>Domains</li>
             <li>Pricing</li>

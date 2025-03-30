@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <head></head>
       <body className={poppins.className}>
         <Header></Header>
-        <main className="px-11 pt-28">{children}</main>
+        <main className="">{children}</main>
       </body>
     </html>
   );
