@@ -40,7 +40,7 @@ export default function Cards() {
       {CardData.map((card) => (
         <div
           key={card.head}
-          className={`${card.color} group relative flex flex-col items-center justify-between rounded-3xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer`}
+          className={`${card.color} group relative flex flex-col items-center h-[450px] justify-between rounded-3xl p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 cursor-pointer`}
         >
           {/* Image Container */}
           <div className="relative w-full mb-5">
@@ -62,9 +62,23 @@ export default function Cards() {
           {/* Button */}
           <button
             className="w-full py-3 bg-gray-900 text-white rounded-xl transition-all 
-            hover:bg-gray-800 hover:shadow-md active:scale-95"
+            hover:bg-gray-800 hover:shadow-md active:scale-95 flex justify-center items-center gap-3"
           >
-            Learn More
+            Learn More{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
           </button>
         </div>
       ))}
